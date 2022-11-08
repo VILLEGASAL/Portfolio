@@ -1,0 +1,175 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+}
+
+hr{
+
+    border-top: 10px dotted;
+    border-bottom: none;
+    height: 0;
+    width: 10%;
+    color: lightgrey;
+    margin: 100px auto;
+}
+
+.top-container .my-name{
+
+    color: #5C2E7E;
+    margin: 3.12rem auto 0 auto;
+    font-size: 5.62rem;
+    font-family: 'VT323', serif;
+}
+
+.pro{
+
+    text-decoration: underline;
+}
+
+h2{
+
+    color:#5C2E7E;
+    font-family: 'Montserrat', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+
+    font-family: 'Montserrat', serif;
+}
+
+h3, a{
+
+    color: #11999E;
+}
+
+.top-container{
+    
+    background-color: #8BBCCC;
+    position: relative;
+    padding: 100px 0 0 0;
+}
+
+.top-container > .description{
+
+    font-family: 'VT323', serif;
+}
+
+.bottom-cloud{
+
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.middle-container .profile .profile-img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 6.25rem 0 2.5rem 0;
+}
+
+.middle-container .profile p{
+
+    width: 50%;
+    margin: 20px auto 100px;
+}
+
+.middle-container .skills .skill-row{
+
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container .skills .skill-row .code{
+
+    width: 25%;
+    float: left;
+    margin-right: 1.87rem;
+}
+
+
+
+.middle-container .skills .skill-row .prog-lang{
+
+    width: 25%;
+    float: right;
+    margin-left: 1.87rem;
+    text-align: center;
+}
+
+.middle-container .contact-me .get-in-touch{
+
+    margin-bottom: 40px;
+}
+
+.middle-container .contact-me h3{
+
+    margin-bottom: 40px;
+}
+
+.middle-container .contact-me p{
+
+    width: 35%;
+    margin: 0 auto 40px;
+    line-height: 2;
+}
+
+.middle-container .contact-me .btn{
+
+    display: inline-block;
+    margin: 0 0 10rem;
+    background-color: #11999E;
+    color: white;
+    padding: 0.63rem;
+    border-radius: 0.31rem;
+    text-decoration: none;
+    margin-bottom: 5.63rem;   
+}
+
+.middle-container .contact-me .btn:hover{
+
+    background-color: #66BFBF;
+}
+
+
+.bottom-container{
+    
+    color: white;
+    background-color: #11999E;
+    padding: 50px;
+}
+
+.bottom-container a{
+
+    display: inline-block;
+    color: white;
+    margin: 0 20px 40px;
+    text-decoration: none;
+}
+
+.bottom-container a:hover{
+
+    color: bisque;
+    text-decoration: underline;
+}
